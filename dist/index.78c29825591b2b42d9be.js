@@ -2154,4 +2154,4 @@ class Foo {
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=index.8dc69efa15f55dd99b76.js.map
+//# sourceMappingURL=index.78c29825591b2b42d9be.js.map

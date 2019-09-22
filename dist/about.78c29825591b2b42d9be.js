@@ -11974,7 +11974,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
 
-  return "<div class=\"moviePage\">\n  <div class=\"poster\"><img src=\"http://image.tmdb.org/t/p/w400/"
+  return "<div class=\"moviePage\">\n  <div class=\"poster\"><img src=\"https://image.tmdb.org/t/p/w400/"
     + alias4(((helper = (helper = helpers.poster_path || (depth0 != null ? depth0.poster_path : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"poster_path","hash":{},"data":data}) : helper)))
     + "\"></div>\n  <div class=\"info\">\n    <h2>"
     + alias4(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
@@ -15265,7 +15265,7 @@ class page_about_PageAbout {
       max = Math.floor(max);
       let trailerNumber = Math.floor(Math.random() * (max - min + 1)) + min;
       const trailerKey = data.results[trailerNumber].key;
-      this.refs.iframeTrailer.src = "http://www.youtube.com/embed/" + trailerKey;
+      this.refs.iframeTrailer.src = "https://www.youtube.com/embed/" + trailerKey;
     });
   }
 
@@ -15356,4 +15356,4 @@ const pageAbout = new page_about_PageAbout(localStorage.getItem('id'));
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=about.8dc69efa15f55dd99b76.js.map
+//# sourceMappingURL=about.78c29825591b2b42d9be.js.map
