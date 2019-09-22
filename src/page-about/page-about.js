@@ -48,7 +48,7 @@ class PageAbout {
       let trailerNumber = Math.floor(Math.random() * (max - min + 1)) + min;
       const trailerKey = data.results[trailerNumber].key;
       this.refs.iframeTrailer.src =
-        "http://www.youtube.com/embed/" + trailerKey;
+        "https://www.youtube.com/embed/" + trailerKey;
     });
   }
 
