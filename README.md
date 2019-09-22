@@ -1,3 +1,3 @@
-# js-filmoteka-final project
+# js-Video-Library-final project
 
-https://zharovskyi.github.io/JS_film/dist/index.html
+https://vadym-usatiuk.github.io/Video-Library/dist/index.html
