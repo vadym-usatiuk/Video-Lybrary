@@ -1,0 +1,38 @@
+.back_to_top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 35px;
+  display: none;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease;
+}
+
+.back_to_top::after {
+  background-image: url(../img/up-arrow-angle.svg);
+  background-position: center;
+  background-size: cover;
+  content: '';
+  width: 17px;
+  height: 17px;
+  display: block;
+  position: relative;
+  top: 18px;
+  left: 21px;
+}
+
+.back_to_top:hover {
+  background: rgba(0, 0, 0, 0.9);
+  transition: all 0.3s ease;
+  & ::after {
+    top: 15px;
+  }
+}
+
+.back_to_top-show {
+  display: block;
+}

@@ -1,0 +1,143 @@
+// Modal_Subscription
+
+.subscription {
+  background-color: white;
+  height: 61%;
+  width: 80%;
+  position: fixed;
+  z-index: 4;
+  top: 90%;
+  left: 50%;
+  visibility: hidden;
+  transform: translate(-50%, -50%);
+  border-radius: 1%;
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.subscription_is_open {
+  visibility: visible;
+  top: 50%;
+  left: 50%;
+  transition: all 0.25s ease-in-out;
+  font-family: 'Lato';
+}
+
+.subscription_container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.subscription_headline {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 33px;
+  margin-bottom: 16px;
+}
+
+.subscription_container_box {
+  display: flex;
+  flex-flow: column wrap;
+  padding-bottom: 69px;
+}
+
+.subscription_container_box_item {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid grey;
+  background-color: transparent;
+  color: grey;
+  font-size: 13pt;
+  font-family: 'Lato';
+  outline: none;
+  margin-top: 16px;
+  cursor: text;
+}
+
+.subscription_btn {
+  background-color: transparent;
+  color: #77c1bb;
+  text-transform: uppercase;
+  border-bottom: none;
+  text-align: end;
+  width: 90px;
+  padding: 0;
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .subscription {
+    width: 600px;
+    height: 360px;
+  }
+
+  .subscription_container {
+    width: 500px;
+  }
+
+  .subscription_btn {
+    margin-left: 82%;
+  }
+}
+
+// Modal_Subscription_Thenks
+
+.subscription_thenks {
+  background-color: white;
+  height: 61%;
+  width: 80%;
+  position: fixed;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  visibility: hidden;
+  transform: translate(-50%, -50%);
+  border-radius: 1%;
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.subscription_thenks_open {
+  visibility: visible;
+}
+
+.subscription_thenks_headline {
+  margin-bottom: 33px;
+  padding-left: 17px;
+  margin-top: 34px;
+}
+
+.subscription_thenks_text {
+  color: grey;
+  width: 90%;
+  margin-bottom: 121px;
+  font-size: 14pt;
+  padding-left: 17px;
+}
+
+.subscription_thenks_btn {
+  background-color: transparent;
+  color: #77c1bb;
+  margin-left: auto;
+  margin-right: 7%;
+  display: block;
+  width: 43px;
+  padding: 0;
+  border: 0;
+  font-size: 16pt;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .subscription_thenks {
+    width: 600px;
+    height: 360px;
+  }
+
+  .subscription_thenks_text {
+    margin-bottom: 164px;
+  }
+}
